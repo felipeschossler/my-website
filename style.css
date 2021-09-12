@@ -1,0 +1,30 @@
+* {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 300;
+}
+
+em {
+  font-weight: bold;
+}
+
+body {
+  margin: auto;
+  width: 70%;
+  padding: 70px 0;
+  text-align: center;
+  background: linear-gradient(45deg, rgba(gray, .01), rgba(gray, .15));
+}
+
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 80px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+}
